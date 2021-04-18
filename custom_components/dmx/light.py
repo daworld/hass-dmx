@@ -492,6 +492,7 @@ class DMXGateway(object):
         packet = self._base_packet[:]
         packet.extend(self._channels)
         self._socket.sendto(packet, (self._host, self._port))
+        self._socket.sendto(packet, (self._host, self._port)) # Send twice
         _LOGGER.debug("Sending Art-Net frame")
 
     def set_channels(self, channels, value, send_immediately=True):
