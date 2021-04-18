@@ -1,9 +1,9 @@
 {
   "domain": "dmx",
   "name": "DMX Light",
-  "version": "2021.4.0",
+  "version": "2021.4.1",
   "documentation": "https://github.com/daworld/hass-dmx/",
   "dependencies": [],
   "codeowners": [],
-  "requirements": [],
+  "requirements": []
 }
